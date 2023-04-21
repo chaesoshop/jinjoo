@@ -1,0 +1,60 @@
+.imgBox-1 {
+  width: 500px;
+  height: 500px;
+}
+.townShopBox {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: 350px;
+}
+.findTownBox > a {
+  background-color: #b7caca;
+}
+.findTownBox > a:hover {
+  background-color: #93adad;
+}
+.empty-Box {
+  max-width: 150px;
+}
+.section-Box {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+}
+.section-Box1 {
+  width: 1200px;
+  height: 1100px;
+  margin: 0 auto;
+}
+.searchWordBox {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.hotissueBox > li:hover {
+  text-decoration: underline;
+}
+.background1 {
+  background-color: lightyellow;
+  min-width: 1090px;
+  height: 700px;
+}
+.firstimg {
+  width: 800px;
+  height: 700px;
+}
+
+.secondimg {
+  width: 800px;
+  height: 800px;
+}
+
+.thirdimg {
+  width: 600px;
+}
+
+.background2 {
+  background-color: #d4ecdd;
+  min-width: 1050px;
+  height: 800px;
+}
