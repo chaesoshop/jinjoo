@@ -23,13 +23,13 @@ const Security = ({ logined, setLogined }) => {
     }
     setPassword(e.target.value);
   };
-  const moveBack = () => {
+  /*const moveBack = () => {
     alert("로그인 후 사용할 수 있는 기능입니다.");
     navigate(-1);
   };
   if (!logined) {
     moveBack();
-  }
+  }*/
   useEffect(() => {
     const onSubmit = async () => {
       let abcd = sessionStorage.getItem("userid");

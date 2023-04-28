@@ -403,12 +403,12 @@ const Home = ({ logined, setLogined }) => {
                 >
                   <div
                     style={{
-                      width: "300px",
+                      width: "400px",
                     }}
                   >
-                    당신 근처의
+                    안전하고 편리한 거래,
                   </div>
-                  <div>당근마켓</div>
+                  <div>채소마켓</div>
                 </div>
                 <div
                   className="mt-8"
@@ -416,14 +416,18 @@ const Home = ({ logined, setLogined }) => {
                     width: "330px",
                   }}
                 >
-                  <div>중고 거래부터 동네 정보까지, 이웃과 함께해</div>
-                  <div>가깝고 따듯한 당신의 근처를 만들어요.</div>
+                  <div>블록체인으로</div>
+                  <div>놀라운 거래를 경험해 보세요</div>
                 </div>
               </div>
               <div>
-                <div className="firstimg flex items-center">
+                <div className="firstimg flex items-center"
+                  style={{
+                    marginLeft: "100px",
+                  }}
+                >
                   <img
-                    src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-top-d6869a79bc4cb58ea59aa5a408decfdf4a4ba60ac639837081da12861083cdbb.webp"
+                    src="img/intro.png"
                     alt=""
                   />
                 </div>
@@ -441,7 +445,7 @@ const Home = ({ logined, setLogined }) => {
           >
             <div className="secondimg mt-2 flex items-center">
               <img
-                src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-1-cc678e9a217b96f5cb459f7f0684f5ba67706f9889801618b8cf879fbc2c0ea7.webp"
+                src="img/tr.png"
                 alt=""
               />
             </div>
@@ -453,8 +457,8 @@ const Home = ({ logined, setLogined }) => {
                   fontSize: "2.5rem",
                 }}
               >
-                <div>우리 동네</div>
-                <div>중고 직거래 마켓</div>
+                <div>멀리 살아도</div>
+                <div>편하게 중고거래</div>
               </div>
               <div
                 className="my-9"
@@ -462,7 +466,7 @@ const Home = ({ logined, setLogined }) => {
                   width: "420px",
                 }}
               >
-                동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.
+                온라인 거래도 걱정 없이 진행할 수 있어요
               </div>
               <div className="font-bold flex justify-center">
                 <div
@@ -510,17 +514,56 @@ const Home = ({ logined, setLogined }) => {
               margin: "0 auto",
             }}
           >
+            <div
+              className="flex justify-center flex-col pr-10"
+              style={{
+                width: "450px",
+              }}
+            >
+              <div
+                className="font-bold"
+                style={{
+                  fontSize: "2.3rem",
+                }}
+              >
+                <div>궁금한 건</div>
+                <div>채소톡으로</div>
+              </div>
+
+              <h1 className="py-5">
+                물건에 대해 궁금한 게 있다면 채소톡으로 물어봐요
+              </h1>
+              <ul
+                className="flex mt-11 gap-8"
+                style={{
+                  fontSize: "0.75rem",
+                  width: "480px",
+                }}
+              >
+                <li>
+                  <div
+                    style={{
+                      fontSize: "2rem",
+                    }}
+                  >
+                    <AiFillMessage />
+                  </div>
+                  <div className="font-bold mb-2 mt-3">구매자</div>
+                  <span>물건의 상태는 어떤가요?</span>
+                </li>
+              </ul>
+            </div>
             <div className="thirdimg relative">
               <div
                 style={{
                   width: "100%",
                   position: "absolute",
-                  top: "5%",
+                  top: "20%",
                   left: "10%",
                 }}
               >
                 <img
-                  src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-2-91a2286453bdf82dea16a7f0ee4ceb9dd325eae0e5a2a9967ba72c344bf8f2fc.webp"
+                  src="img/chat.png"
                   alt=""
                 />
               </div>
@@ -528,15 +571,6 @@ const Home = ({ logined, setLogined }) => {
           </div>
         </section>
 
-        <div className="section-Box flex flex-row">
-          <div className="imgBox-1">
-            <img
-              src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-3-5fd6fb61d603ab919a45566b2ea6b505c83a93ec218f34ddcd5cb482543e2317.webp"
-              alt=""
-            />
-          </div>
-          <div className="flex-grow empty-Box"></div>
-        </div>
         <div style={{ backgroundColor: "#efefef", minWidth: "1090px" }}>
           <div className="section-Box1 ">
             <div

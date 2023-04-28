@@ -103,7 +103,7 @@ const Header = () => {
           />
           <input
             type="text"
-            placeholder="물품이나 동네를 검색해 보세요"
+            placeholder="원하시는 물품을 검색해 보세요"
             value={search}
             onChange={onSearchChange}
             style={{

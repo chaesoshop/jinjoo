@@ -14,12 +14,12 @@ const ProductWrite = ({ logined, setLogined }) => {
   const moveBack = () => {
     navigate(-1);
   };
-  useEffect(() => {
+  /*useEffect(() => {
     if (!logined) {
       window.alert("로그인 후 사용할 수 있는 기능입니다.");
       moveBack();
     }
-  }, []);
+  }, []);*/
   const [category, setCategoryValue] = useState("");
   const [priceValue, setPriceValue] = useState("");
   const [contentValue, setContentValue] = useState("");
